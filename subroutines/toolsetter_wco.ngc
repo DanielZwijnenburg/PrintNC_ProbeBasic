@@ -15,7 +15,7 @@ o<toolsetter_wco> sub
   #<dust_boot_y_coords> = 3
   #<max_z_distance> = 102
   #<tool_setter_height> = 23.8836
-  #<z_clearance> = 20
+  #<z_clearance> = 10
   #<probe_slow_fr> = 30.0
   #<probe_fast_fr> = 250.0
 
