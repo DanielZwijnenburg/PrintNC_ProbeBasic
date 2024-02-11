@@ -1,0 +1,19 @@
+# Halshow settings
+# This file is generated automatically.
+wm geometry . 606x348+1304+666
+placeFrames 0.3
+set ::ratio 0.3
+set ::old_w_leftf 160
+set ::watchlist {
+    pin+motion.probe-input
+    sig+probe-in
+    sig+probe-or-toolsetter
+    sig+toolsetter-in
+}
+set ::workmode watchhal
+set ::watchInterval 100
+set ::col1_width 100
+set ::ffmts 
+set ::ifmts 
+set ::alwaysOnTop 0
+set ::autoSaveWatchlist 1
