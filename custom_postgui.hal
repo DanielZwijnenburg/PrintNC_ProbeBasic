@@ -1,2 +1,9 @@
-# Include your custom_postgui HAL commands here
-# This file will not be overwritten when you run PNCconf again
+## *** Spindle Load Percent ***
+loadrt load_conv
+
+addf load-conv.0 servo-thread
+
+setp qtpyvcp.spindle-load-indicator.max-val 100
+net spindle-current => load-conv.0.amps
+net spindle-load qtpyvcp.spindle-load-indicator.in-f <= load-conv.0.percent
+net spindle-speed-fb => qtpyvcp.spindle-encoder-rpm.in Include your custom_postgui HAL commands here
